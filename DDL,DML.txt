@@ -1,0 +1,61 @@
+DDL - create,alter,truncate,drop
+DML - insert into,update,delete,select
+
+#show database
+it will return the avaible databases name
+
+--show databases
+#use database
+it will select the database as per the command
+use database
+
+#create database
+careate database database_name
+
+#create table
+create table table name(column data type)
+
+#insert data
+insert into table name (columns) values (values)
+
+#update
+upadte table_name set colum=values where condition
+
+#delete
+delete from table where contions
+
+#truncate
+truncate table table_name
+
+#drop table
+drop table table_name
+
+---------------------------------
+ALTER
+---------------------------------
+
+#add column
+alter table table_name
+add colum column_name datatype
+
+#drop column
+alter table table_name
+drop colum column_name
+
+#modify column - changing datatype
+
+alter table table_name
+modify column column_name changed_datatype
+
+alter table table_name
+change column old_colum new_colum datatype
+
+
+
+
+
+
+
+
+
+
