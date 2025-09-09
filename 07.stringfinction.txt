@@ -1,0 +1,31 @@
+Functions two types
+!.single row function single input ---> single output
+2.multi row function multi input ---->singlr output
+
+#single row Functions
+
+1.string function
+2.number function
+3.len function
+
+###1.sting function
+
+1.concat---->("vimal","::","natesan")==>>>"vimal::natesan"
+2.upper------>("vimal")--->"VIMAL"
+3.lower------>("VIMAL")--->vimal
+4.trim---Remove the leading and trailing spaces
+5.substring---Extarct the string values from the string: syntax=substring(string.start,len(string))
+6.replace------Replace the vlaues in the string (vimal@com)--replace(vimal@com,"old value","new value")
+7.substring index---based on the substring we can split
+8.length--- find the lengh of the string
+
+#number function
+
+1.round
+2.floor
+3.ceil
+4.truncate
+
+
+
+

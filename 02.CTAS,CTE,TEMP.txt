@@ -1,0 +1,26 @@
+#CTAS
+
+create a table from existing table
+
+create table table_name as
+select columns from table 
+where condition
+
+
+#Temproray table
+
+create temproary tbale table_name(
+    column_name (data type)
+)
+
+insert into temp_table
+select colun,colum2
+from table where condition
+
+#cTE 
+comman table expression
+
+with table_name as 
+select * from temp_table 
+where contions
+

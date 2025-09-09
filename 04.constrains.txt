@@ -1,0 +1,24 @@
+diffrecnt types of constrins avaible in sql
+
+#primary key
+
+it is contains unique values
+not allowing duplicate and null values
+
+#composite primary key
+if a table contains more than one primary key it is called composite primary key
+
+#unique
+this is also contain unique values but allowing null values
+
+#check
+it will check the values before insert
+
+#foriegn key
+using of foriegn key we can create relationship one table to another table
+
+
+
+
+
+

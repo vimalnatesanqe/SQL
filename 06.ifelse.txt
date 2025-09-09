@@ -1,0 +1,7 @@
+select column,
+case
+    when condition then '
+    when condition then '
+    else
+end as column name
+from table name

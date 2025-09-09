@@ -1,0 +1,49 @@
+#joins used for combine two or more tables
+
+inner join ---comman data both tables
+left join -- comman data and left table data
+right--comman data and right side table 
+full join--all the data from both tablw
+
+
+select * from table a
+inner join table b
+on a.key=b.key
+
+
+select * from table a
+left join tablbe b
+on a.key=b.key
+
+select * from table a
+right join table b
+on a.key=b.key
+
+select * from table a
+full join table b
+on a.key=b.key
+--------------------------
+
+where clause for anti join
+
+select * from table a
+left join table b
+on a.key=b.key
+where b.key is null
+
+select * from table a
+right join b
+on a.key = b.key
+where a.key is null
+
+select * from table a
+full join tbale b
+on a.key=b.key
+where a.key is null or b.key is null
+
+select * from table a
+full join table b
+on a.key=b.key 
+where a.key not null or b.key not null
+
+________________________________________________________________________

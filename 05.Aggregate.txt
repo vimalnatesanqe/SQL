@@ -1,0 +1,16 @@
+most important aggregations
+
+count
+sum
+avg
+min
+max
+
+it will return only single values one peritcular column
+
+perform any opreation based on the perticular column
+group by
+
+applying fillter condition for aggregate conditions
+havinng
+

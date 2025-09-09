@@ -50,6 +50,10 @@ modify column column_name changed_datatype
 alter table table_name
 change column old_colum new_colum datatype
 
+#alter rename
+alter table table_name rename to rename_tbal_name
+
+
 
 
 
