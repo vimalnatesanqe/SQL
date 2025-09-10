@@ -1,0 +1,47 @@
+#null hadnles..
+
+if any columns doesnt insert any values then it will populate null values
+when we use the null values whil addition or concat that time it will return null values
+
+ifnull and coalesce ----> if null then replace the values
+nullif ------------------> viseversa -- passing null values insted of other values
+example
+null+10= null
+null+a=null
+
+we can handle this scenario using ifnull and coalesce
+
+#if null
+
+this is only limitted vales, we cannot add more columns
+ example::
+
+ x=null
+ y=10
+
+ normal x+y= null
+ hadnle ifnull(x,0)+y=10
+
+coalesce
+
+using of this coalesce we can pass multiple values 
+
+firsr_name="vimal"
+last_name=natesan
+city=null
+adress="namakkal"
+state=tamilnadu
+
+select 
+firstname,
+lastname,
+coalesce(city,address,state,'N/A')
+from table
+--------------------------------------------------------------
+null values should not present in the join keys if it is present then we have to handle the null values
+----------------------------------------------------------------
+also order by condition also we have to checkm the null hadnles
+and aggregation also we have check the null hadnles
+------------------------------------------------------------------
+
+
